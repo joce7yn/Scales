@@ -1,14 +1,14 @@
 void setup() {
-  size(750, 750); 
+  size(550, 550); 
   background(#581A1A);
   frameRate(5);
 }
 
 void draw() {
   //rows
-  for (int y = 720; y > -100; y-=50) {
+  for (int y = 530; y > -100; y-=50) {
     //columns
-    for (int x = 720; x > -75; x-=45) {
+    for (int x = 530; x > -75; x-=45) {
       scale(x,y);
     }
   }//end y loop
